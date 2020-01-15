@@ -28,8 +28,8 @@ Additionally if you choose to learn more about Git and Github then you are also 
 | Week | Date Range | Objective |
 | ---------------- | ---------------- | ---------------- |
 | 1 | Jan 5-11 | Setup, Syllabus, Q&A, Introductions|
-| 2 | Jan 12-18 | [Lesson 1: Introduction to the Internet](./lesson-1.md) & [Lesson 2: Introduction to HTML](./lesson-2.md)
-| 3 | Jan 19-25 | [Lesson 3: What is JavaScript](./lesson-3.md)
+| 2 | Jan 12-18 | [Lesson 1: Introduction to the Internet](./lesson-1.md) & [Lesson 2: Introduction to HTML](./lesson-2-html.md)
+| 3 | Jan 19-25 | [Lesson 3: What is JavaScript](./lesson-3-js.md)
 | 4 | Jan 26-01 | TBD
 | 5 | Feb 02-08 | TBD
 | 6 | Feb 09-15 | TBD
