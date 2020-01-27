@@ -1,5 +1,5 @@
 
-2. How to output JavaScript!?
+# How to output JavaScript!?
 
 ```HTML
 <!DOCTYPE html>
