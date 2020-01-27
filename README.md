@@ -29,8 +29,8 @@ Additionally if you choose to learn more about Git and Github then you are also 
 | ---------------- | ---------------- | ---------------- |
 | 1 | Jan 5-11 | Setup, Syllabus, Q&A, Introductions|
 | 2 | Jan 12-18 | [Lesson 1: Introduction to the Internet](./week-2/lesson-internet-101.md) & [Lesson 2: Introduction to HTML](./week-2/lesson-html-js.md)
-| 3 | Jan 19-25 | [Lesson 3: What is JavaScript](./lesson-js-output.md)
-| 4 | Jan 26-01 | TBD
+| 3 | Jan 19-25 | [Lesson 3: What is JavaScript](./week-3/exercises.md)
+| 4 | Jan 26-01 | [Lesson 4: Connecting JavaScript with HTML](./week-4/lesson-js-output.md)
 | 5 | Feb 02-08 | TBD
 | 6 | Feb 09-15 | TBD
 | 7 | Feb 18-22 | Reading Week (BREAK!)
