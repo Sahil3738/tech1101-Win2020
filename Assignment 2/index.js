@@ -23,7 +23,7 @@
      }
 
          else if (amnt > 48535 && amnt <=97069 ) {
-         const c= ((amnt -48535 ) *.205 + 7280.25).toFixed(2);
+         const c= ((amnt -48535 ) *.205 + 7280).toFixed(2);
          ttax.textContent = '$' + c;
          rate.textContent=(c/amnt*100).toFixed(2);
          const d=(amnt-c).toFixed(2);  
@@ -32,7 +32,7 @@
          }
 
         else if (amnt > 97069 && amnt <=150473 ) {
-        const e= ((amnt - 97069) *.26 + 19899.14).toFixed(2);
+        const e= ((amnt - 97069) *.26 + 17230).toFixed(2);
         ttax.textContent = '$' + e;
         rate.textContent=(e/amnt*100).toFixed(2);
         const f=(amnt-e).toFixed(2); 
@@ -41,7 +41,7 @@
      }
 
         else if (amnt > 150473 && amnt <=214368 ) {
-        const g= ((amnt - 150473) *.29 +39122.98).toFixed(2) ;
+        const g= ((amnt - 150473) *.29 +31115).toFixed(2) ;
         ttax.textContent = '$' + g;
         rate.textContent=(g/amnt*100).toFixed(2);
         const h=(amnt-g).toFixed(2);
@@ -49,17 +49,20 @@
 
 
      }
-        else if (amnt>214368) {
-        const i= ((amnt - 214368) *.33 +62166.72).toFixed(2) ;
-        ttax.textContent = '$' + i;
-        rate.textContent=(i/amnt*100).toFixed(2);
-        const j=(amnt-i).toFixed(2);  
-        earn.textContent = '$' + j;
-
-      }
+        
         else if (isNaN(amnt)) {
         error.textContent ="Error: Enter a Number";
      }
+
+     else  {
+            
+      const i= ((amnt - 214368) *.33 +49645).toFixed(2) ;
+      ttax.textContent = '$' + i;
+      rate.textContent=(i/amnt*100).toFixed(2);
+      const j=(amnt-i).toFixed(2);  
+      earn.textContent = '$' + j;
+
+    }
       
      
 
